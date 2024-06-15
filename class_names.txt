@@ -1,0 +1,1 @@
+void dirt grass tree pole water sky vehicle object asphalt building log person fence bush concrete barrier uphill downhill puddle mud rubble

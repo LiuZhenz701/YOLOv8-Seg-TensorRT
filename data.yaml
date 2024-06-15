@@ -1,0 +1,29 @@
+# This is the yolo v8 instance segmentation required dataset file,
+# please replace 'path' to the correct one that works fine with your workspace
+path: ../Desktop/InstanceSegment/YOLOV8IS
+train: images/train
+val: images/val
+
+names:
+  0: void
+  1: dirt
+  2: grass
+  3: tree
+  4: pole
+  5: water
+  6: sky
+  7: vehicle
+  8: object
+  9: asphalt
+  10: building
+  11: log
+  12: person
+  13: fence
+  14: bush
+  15: concrete
+  16: barrier
+  17: uphill
+  18: downhill
+  19: puddle
+  20: mud
+  21: rubble

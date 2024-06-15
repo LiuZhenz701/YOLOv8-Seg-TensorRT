@@ -1,0 +1,21 @@
+cmake -D CMAKE_BUILD_TYPE=RELEASE \  
+-D CMAKE_INSTALL_PREFIX=/usr/local \
+-D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \
+-D WITH_CUDA=ON \
+-D WITH_CUDNN=ON \
+-D OPENCV_DNN_CUDA=ON \
+-D CUDA_ARCH_BIN=8.6 \
+-D CUDA_ARCH_PTX="" \
+-D WITH_TBB=ON \
+-D BUILD_opencv_python3=ON \
+-D BUILD_EXAMPLES=OFF \
+-D BUILD_opencv_world=OFF \
+-D OPENCV_ENABLE_NONFREE=ON \
+-D INSTALL_C_EXAMPLES=OFF \
+-D INSTALL_PYTHON_EXAMPLES=OFF \
+..
+
+
+
+make -j 8
+sudo make -j 8 install
