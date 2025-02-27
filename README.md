@@ -5,7 +5,6 @@ Yolov8 segmentation custom dataset train and boost with TensorRT
 - Finds codes in `/scripts`
 - My own result in `/run/segment`
 - [Demo (Youtube)](https://youtu.be/hgp1QCzv4Lo)
-- [Demo (Bilibili)](https://www.bilibili.com/video/BV1nQVYesEvy/?share_source=copy_web&vd_source=ed5dd912a49925c5664ba9d64e3d058c)
 
 
 ## **Prerequisites**
